@@ -1,0 +1,287 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+  nav li a {
+    margin: 0;
+  }
+  #banner h1 {
+    width: auto;
+    line-height: 140%;
+    font-size: 33px;
+    margin-top: 16px;
+  }
+  #banner p {
+    width: auto;
+    line-height: 24px;
+    margin-top: 12px;
+  }
+  #banner .search {
+    width: auto;
+  }
+  #banner .search button {
+    padding: 10px 92px;
+    position: relative;
+    top: 12px;
+    left: 33px;
+  }
+  #banner .search input {
+    padding: 9px 0;
+  }
+  #banner .search input {
+    padding: 9px 3px;
+    font-size: 14px;
+  }
+
+  #banner .search i {
+    display: none;
+  }
+
+  #banner .search input ::placeholder {
+    font-size: 12px;
+  }
+
+  #banner .number {
+    flex-wrap: wrap;
+  }
+  #banner .number .item {
+    width: 33%;
+  }
+  #banner .number .item:last-child {
+    margin-top: 17px;
+  }
+  #banner .number .item h3 {
+    font-size: 41px;
+    line-height: 141%;
+  }
+  #banner .number .item p {
+    width: auto;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  #banner img {
+    display: none;
+  }
+  #banner {
+    padding-bottom: 26px;
+  }
+  #property h2 {
+    width: auto;
+    font-size: 32px;
+    line-height: 132%;
+  }
+  #property {
+    padding: 15px 0;
+  }
+  #property .item {
+    width: auto;
+    padding: 14px 18px;
+  }
+  #property .item p {
+    height: auto;
+    line-height: 24px;
+  }
+  #property .item a {
+    margin-top: 14px;
+    line-height: 35px;
+  }
+  #resident {
+    padding: 40px 0;
+  }
+  #resident .text-part h3 {
+    margin-top: 0px;
+    line-height: 138%;
+    font-size: 32px;
+  }
+  #resident .img {
+    margin-top: 19px;
+    margin-left: -10px;
+    padding-bottom: 28px;
+  }
+
+  #resident .img .front {
+    display: none;
+  }
+  #resident .right-textpart h2 {
+    width: auto;
+    font-size: 32px;
+    line-height: 137%;
+  }
+  #resident .right-textpart p {
+    width: auto;
+    margin-top: 12px;
+    line-height: 26px;
+  }
+  #resident .right-textpart a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 28px;
+    padding: 8px 10px;
+    margin-right: 20px;
+  }
+  #kota {
+    padding: 22px 0;
+  }
+  #kota .text-part h3 {
+    margin-top: 5px;
+    font-size: 32px;
+    line-height: 133%;
+  }
+  #kota .item {
+    margin-top: 10px;
+  }
+  #kota .item h3 {
+    margin-top: 14px;
+    font-size: 23px;
+    line-height: 130%;
+  }
+  #kota .item p {
+    width: auto;
+    margin-top: 0px;
+    line-height: 21px;
+  }
+  #kami {
+    padding: 18px 0;
+  }
+  #kami .box {
+    margin-top: 26px;
+    flex-direction: column;
+  }
+
+  #kami .box .item {
+    padding: 16px;
+    margin-top: 24px;
+  }
+  #kami .heading h3 {
+    font-size: 31px;
+    line-height: 138%;
+    margin-top: 25px;
+  }
+  #kami .brandbox {
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    margin-top: 40px;
+  }
+  #kami .brandbox img {
+    width: 53%;
+  }
+  /* ========= */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  nav li a {
+    margin: 0;
+  }
+  #banner h1 {
+    width: auto;
+    margin-top: 35px;
+    font-size: 50px;
+    line-height: 134%;
+  }
+  #banner p {
+    width: auto;
+    line-height: 25px;
+    margin-top: 22px;
+  }
+  #banner .search {
+    width: auto;
+    margin-top: 55px;
+  }
+  #banner .search i {
+    left: 27px;
+    top: 24px;
+    transform: translateY(0);
+  }
+  #banner .search button {
+    padding: 16px 129px;
+    position: relative;
+    top: 15px;
+    left: 95px;
+  }
+  #banner .number {
+    column-gap: 65px;
+  }
+  #banner .number .item {
+    width: 25%;
+  }
+  #banner img {
+    display: none;
+  }
+  #property {
+    padding: 20px 0;
+  }
+  #property h2 {
+    width: auto;
+    font-size: 35px;
+    line-height: 134%;
+  }
+  #property .item {
+    width: auto;
+    padding: 15px 40px;
+  }
+  #property .item p {
+    height: auto;
+    line-height: 25px;
+  }
+  #property .item a {
+    margin-top: 32px;
+    line-height: 35px;
+  }
+  #property .item a:after {
+    left: 29px;
+  }
+  #resident {
+    padding: 24px 0;
+  }
+  #resident .img {
+    margin-top: 17px;
+    padding-bottom: 108px;
+  }
+  #resident .right-textpart h2 {
+    width: auto;
+    font-size: 34px;
+  }
+  #resident .right-textpart p {
+    width: auto;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  #resident .right-textpart a {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 18px;
+    padding: 10px 39px;
+    margin-right: 30px;
+    display: inline-block;
+  }
+  #kota {
+    padding: 26px 0;
+  }
+  #kota .text-part h3 {
+    margin-top: 6px;
+    font-size: 33px;
+    line-height: 132%;
+  }
+  #kota .item {
+    margin-top: 23px;
+  }
+  #kami {
+    padding: 10px 0;
+  }
+  #kami .box {
+    column-gap: 11px;
+    margin-top: 29px;
+  }
+  #kami .box .item {
+    padding: 20px;
+  }
+  #kami .box .item a {
+    padding: 11px 55px;
+    margin-top: 10px;
+    line-height: 20px;
+  }
+  #kami .heading h3 {
+    font-size: 33px;
+    line-height: 143%;
+    margin-top: 20px;
+  }
+  /* ========== */
+}

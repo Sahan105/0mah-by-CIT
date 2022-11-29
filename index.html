@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sass is Loading</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./scss/responsive.css" />
+  </head>
+  <body>
+    <!-- =================== 
+      nav section start
+    =====================-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+              <div class="dropdown">
+                <ul>
+                  <li>Flat</li>
+                  <li>House</li>
+                  <li>Showroom</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ===================
+    nav section end
+    =====================-->
+    <!-- ===================
+    Banner section end
+    =====================-->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+            <p>
+              Menyediakan hunian bagi keluarga anda dengan varian pilihan dan
+              lokasi yang strategis di kota anda dengan cara yang lebih mudah.
+            </p>
+            <div class="search">
+              <i class="fa-solid fa-location-dot"></i>
+              <input
+                type="text"
+                placeholder="Search location, properties, residental group"
+              />
+              <button>search</button>
+            </div>
+            <div class="number">
+              <div class="item">
+                <h3>200<span>+</span></h3>
+                <p>Residental grup telah bergabung</p>
+              </div>
+              <div class="item">
+                <h3>10<span>+</span></h3>
+                <p>Sudah berpengalaman</p>
+              </div>
+              <div class="item">
+                <h3>999<span>+</span></h3>
+                <p>Properti tersedia di berbagai Kota</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/banner.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================
+   Banner section end
+    =====================-->
+    <!-- ===================
+    Property section start
+    =====================-->
+
+    <section id="property">
+      <div class="container">
+        <h2>Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item">
+              <h4>Pilih Properti</h4>
+              <span>01</span>
+              <p>
+                Cari properti yang diinginkan sesuai dengan kriteria anda dan
+                keluarga. Cara memilih properti yang bijak dapat anda baca lebih
+                lanjut di sini
+              </p>
+              <a href="#"
+                >Baca lebih Lanjut<i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <h4>Proses Booking</h4>
+              <span>02</span>
+              <p>
+                Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan
+                unit properti tertentu.
+              </p>
+              <a href="#"
+                >Baca lebih Lanjut<i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <h4>KPR dan Sertifikasi</h4>
+              <span>03</span>
+              <p>
+                Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika
+                diperlukan dan dilanjutkan proses sertifkasi HGB.
+              </p>
+              <a href="#"
+                >Baca lebih Lanjut<i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resident">
+      <div class="container">
+        <div class="text-part">
+          <p>Pilihan konsumen</p>
+          <h3>Residen Favorit</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="img">
+              <img src="./images/back.webp" alt="backimage" />
+              <img class="front" src="./images/front.webp" alt="frontimage" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="right-textpart">
+              <h2>Bangunan yang dirancang oleh Aristektur Handal</h2>
+              <p>
+                Tanpa diragukan, properti yang disediakan dalam webiste kami
+                merupakan hasil kerjasama secara profesional dengan para
+                Arsitektur ternama dan Developer yang terpercaya.
+              </p>
+              <a class="first" href="#">Hubungi Kami</a>
+              <a href="#">Explore lebih banyak</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================
+    Property section end
+    =====================-->
+    <!-- ===================
+    Kota section start
+    =====================-->
+    <section id="kota">
+      <div class="container">
+        <div class="text-part">
+          <p>Pilihan Auditor</p>
+          <h3>Residen Berbagai Kota</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item">
+              <img src="./images/image 5.webp" alt="" />
+              <h3>Pinang Residences</h3>
+              <p>
+                Jl. Deplu Raya No.16 RT.5, RW.003 Bintaro, Pesanggrahan, Jakarta
+                Selatan 12330
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <img src="./images/image 6.webp" alt="" />
+              <h3>South Grove</h3>
+              <p>
+                1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta
+                Selatan, Daerah Khusus Ibukota Jakarta 12440
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <img src="./images/image 7.webp" alt="" />
+              <h3>Magnolia Surabaya</h3>
+              <p>
+                Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                Jatiuwung, Kota Tangerang, Banten 15136
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================
+    Kota section end
+    =====================-->
+    <!-- ===================
+    Kami section end
+    =====================-->
+    <section id="kami">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="heading">
+              <h3>Hubungi Kami</h3>
+            </div>
+            <div class="box">
+              <div class="item">
+                <div class="top-part">
+                  <div class="left">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="right">
+                    <p>Call</p>
+                    <p>+6281232936733</p>
+                  </div>
+                </div>
+                <a href="#">Call now</a>
+              </div>
+
+              <div class="item">
+                <div class="top-part">
+                  <div class="left">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="right">
+                    <p>email</p>
+                    <p>omahindev@gmail.com</p>
+                  </div>
+                </div>
+                <a href="#">Email Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="heading">
+              <h3>Penghargaan</h3>
+            </div>
+            <div class="brandbox">
+              <img src="./images/image 8.png" alt="" />
+              <img src="./images/image 9.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================
+    Kami section end
+    =====================-->
+    <section id="footer" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo2.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- bootstrap budle js link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
